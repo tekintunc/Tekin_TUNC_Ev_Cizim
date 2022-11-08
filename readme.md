@@ -1,0 +1,1 @@
+Bu çalışmada temel hedef CSS Flex modülünü etkin biçimde kullanabilmektir.Bu amaçla mevcut div ve kapsayıcı container'lerine "display:flex" özelliği tanımlandırdım ve flex taglarını kullanarak div'lerin yatay (justify) ve dikey (aling) konumlandırmalarını efektif biçimde düzenledim.
