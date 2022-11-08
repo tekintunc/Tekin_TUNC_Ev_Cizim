@@ -1,0 +1,101 @@
+body {
+  background-color: deepskyblue;
+}
+.sun {
+  position: absolute;
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: radial-gradient(yellow, orange, #ffff1a);
+  left: 1150px;
+  top: 20px;
+}
+.container {
+  display: flex;
+  width: 600px;
+  height: 600px;  
+  margin-left: 150px;
+  flex-direction: column;
+  margin-top: 50px ;
+}
+.cati {
+  display: flex;
+  width: 800px;
+  height: 300px;    
+}
+.ucgen {
+  border-left: 400px solid transparent;
+  border-right:400px solid transparent;
+  border-bottom: 300px solid #664400;
+  width: 0px;
+  height: 0px;
+}
+.baca1 {
+  display: flex;
+  position: absolute;
+  width: 92x;
+  height: 15px;
+  background-color: gray;
+  left: 625px;
+  top: 75px;
+}
+.baca2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 63px;
+  height: 80px;
+  background-color:gray;
+  left: 640px;
+  top: 90px;
+}
+.baca2 > div {
+  width: 20px;
+  height: 10px;
+  background-color:brown;
+  margin: 0.4px;
+}
+.baca1 > div {
+  width: 30px;
+  height: 15px;
+  background-color:brown;
+  margin: 0.4px;
+}
+ .govde {
+  display: flex;
+  width: 800px;
+  height: 300px;
+  background-color: #cc9900;
+  justify-content: space-around;
+}
+.pencere {
+  display: flex;
+  width: 99px;
+  height: 100px;
+  flex-wrap: wrap;
+  background-color: black;
+  margin-top: 50px;   
+}
+.pencere > div {
+  width: 31px;
+  height: 31px;
+  background-color: antiquewhite;
+  margin: 1px;   
+}
+.kapi{
+  display: flex;
+  width: 100px;
+  height: 200px;
+  background-color:#b35900;
+  border: 10px solid #804000;
+  align-self: end;
+  align-items: center;
+  border-bottom: 10px solid  rgb(16, 9, 9);
+}
+.kol {
+width: 15px;
+height: 15px;
+background-color: black;
+border-radius: 50%;
+margin-left:15px; 
+}
